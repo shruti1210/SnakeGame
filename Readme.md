@@ -56,15 +56,15 @@ In this project, you can build your own C++ application or extend this Snake gam
   * [x] Classes abstract implementation details from their interfaces. --> Snake hides to controller its last moved direction.
   * [x] Classes encapsulate behavior. --> Controller only forwards the direction to move, then snake decides if it is allowed or not by checking last direction moved.
   * [ ] Classes follow an appropriate inheritance hierarchy.
-  * [] Overloaded functions allow the same function to operate on different parameters.
+  * [ ] Overloaded functions allow the same function to operate on different parameters.
   * [ ] Derived class functions override virtual base class functions.
   * [ ] Templates generalize functions in the project.
-* [x ] Memory Management
+* [x] Memory Management
   * [ ] The project makes use of references in function declarations.
   * [x] The project uses destructors appropriately. --> Have set the proper destructors for SDL_Window and SDL_Renderer unique_ptr's, so no memory leaks.
   * [x] The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate. --> Smart pointers are used instead of raw pointers, which ise the RAII principle, deallocating memory as soon as their owner class goes out of scope.
-  * [] The project follows the Rule of 5. 
-  * [] The project uses move semantics to move data, instead of copying it, where possible.
+  * [ ] The project follows the Rule of 5. 
+  * [ ] The project uses move semantics to move data, instead of copying it, where possible.
   * [x] The project uses smart pointers instead of raw pointers. -->  SDL_Window and SDL_Renderer inside Renderer, have smart pointers pointing to theme inside Game class.
 * [ ] Concurrency
   * [ ] The project uses multithreading.
