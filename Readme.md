@@ -51,7 +51,7 @@ In this project, you can build your own C++ application or extend this Snake gam
   * [x] The project accepts user input and processes the input. --> User can change the input speed: using 0 and 1. 
 * [x] Object Oriented Programming
   * [x] The project uses Object Oriented Programming techniques. --> Controller class is located inside Game in order to hide it from main and abstract.
-  * [x] Classes use appropriate access specifiers for class members. --> Snake speed is initialised through ChooseSpeed() method which uses setStartingSpeed() from snake class. 
+  * [x] Classes use appropriate access specifiers for class members. 
   * [x] Class constructors utilize member initialization lists.
   * [x] Classes abstract implementation details from their interfaces. --> Snake hides to controller its last moved direction.
   * [x] Classes encapsulate behavior. --> Controller only forwards the direction to move, then snake decides if it is allowed or not by checking last direction moved.
@@ -60,12 +60,12 @@ In this project, you can build your own C++ application or extend this Snake gam
   * [ ] Derived class functions override virtual base class functions.
   * [ ] Templates generalize functions in the project.
 * [x] Memory Management
-  * [ ] The project makes use of references in function declarations.
+  * [x] The project makes use of references in function declarations.
   * [x] The project uses destructors appropriately. --> Have set the proper destructors for SDL_Window and SDL_Renderer unique_ptr's, so no memory leaks.
   * [x] The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate. --> Smart pointers are used instead of raw pointers, which ise the RAII principle, deallocating memory as soon as their owner class goes out of scope.
   * [ ] The project follows the Rule of 5. 
   * [ ] The project uses move semantics to move data, instead of copying it, where possible.
-  * [x] The project uses smart pointers instead of raw pointers. -->  SDL_Window and SDL_Renderer inside Renderer, have smart pointers pointing to theme inside Game class.
+  * [x] The project uses smart pointers instead of raw pointers. -->  SDL_Window and SDL_Renderer inside Renderer, use smart pointers.
 * [ ] Concurrency
   * [ ] The project uses multithreading.
   * [ ] A promise and future is used in the project.
