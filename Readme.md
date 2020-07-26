@@ -30,7 +30,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-## New Features
+## Additions
 * The user can select a initial input speed for the snake.
 * User can input it's name. 
 * The game can store the user input data and score results over the games in "History.txt" file.
